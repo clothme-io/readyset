@@ -7,6 +7,6 @@
   "deploy": {
     "numReplicas": 1,
     "restartPolicyType": "ON_FAILURE",
-    "startCommand": "readyset --verify-skip"
+    "startCommand": "readyset --verify-skip --db-replicator-disable-ssl-verification"
   }
 }
